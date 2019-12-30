@@ -1,5 +1,7 @@
 package mini_tema;
 
+//definire metode apelate de Concrete Builder
+
 public interface MeniuBuilder {
 	
 	public void buildBautura();
