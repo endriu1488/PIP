@@ -1,6 +1,8 @@
 package mini_tema;
 
-public class Meniu {
+// clasă concretă derivată din interfață
+
+public class Meniu implements MeniuInterface{
 	
 	private String bautura;
 	private String burger;
@@ -34,13 +36,13 @@ public class Meniu {
 	@Override
 	public String toString() {
 		return	"\n bautura: " + bautura
-				+ "\n burger: " + burger
-			    + "\n salata: " + salata 
-				+ "\n garnitura: "+ garnitura 
-				+ "\n wrap: " + wrap
-				+ "\n pui: " + pui
-				+ "\n pret: " + pret
-				+ "\n";
+			+ "\n burger: " + burger
+		   	+ "\n salata: " + salata 
+			+ "\n garnitura: "+ garnitura 
+			+ "\n wrap: " + wrap
+			+ "\n pui: " + pui
+			+ "\n pret: " + pret
+			+ "\n";
 	}
 
 }
