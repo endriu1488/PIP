@@ -1,5 +1,7 @@
 package mini_tema;
 
+//concrete builder
+
 public class MeniuDoubleDownBurger implements MeniuBuilder {
 
 	private Meniu meniu;
