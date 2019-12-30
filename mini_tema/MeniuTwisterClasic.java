@@ -1,5 +1,7 @@
 package mini_tema;
 
+//concrete builder
+
 public class MeniuTwisterClasic  implements MeniuBuilder{
 private Meniu meniu;
 	
