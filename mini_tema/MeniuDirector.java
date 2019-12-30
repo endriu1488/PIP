@@ -1,5 +1,7 @@
 package mini_tema;
 
+//clasa Director, creare obiect Meniu în funcție de concrete builderul ales
+
 public class MeniuDirector {
 	
 	private MeniuBuilder meniuBuilder;
