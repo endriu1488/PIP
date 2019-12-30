@@ -1,5 +1,7 @@
 package mini_tema;
 
+//interfața ce va fi returnată de Builder
+
 public interface MeniuInterface {
 	
 		public void setBautura(String bautura);
