@@ -1,5 +1,7 @@
 package mini_tema;
 
+//concrete builder
+
 public class MeniuTheBox implements MeniuBuilder {
 	
 private Meniu meniu;
